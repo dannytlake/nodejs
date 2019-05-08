@@ -11,10 +11,11 @@ class Logger extends EventEmitter {
   }
 
   fucked(msg){
-    this.emit('gogetfucked', { id: uuid.v4() , msg});
+    this.emit('fuck', { id: uuid.v4() , msg});
   }
 } 
 
+console.log('hiiiii');
 
 module.exports = Logger;
 
